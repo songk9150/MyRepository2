@@ -6,5 +6,7 @@ public class A {
 		System.out.println("A 수정완료");
 		B b = new B();
 		b.sayHello("A");
+		C c = new C();
+		c.sayBye("C");
 	}
 }
